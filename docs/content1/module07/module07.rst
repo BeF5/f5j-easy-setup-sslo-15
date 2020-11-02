@@ -41,7 +41,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-10.png
     |  
-#. **Network Configuration** の **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。）:guilabel:`Done` ボタンを押します。
+#. **Network Configuration** の **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。） :guilabel:`Done` ボタンを押します。
 
     .. image:: images/mod7-11.png
     |  
