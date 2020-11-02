@@ -18,7 +18,7 @@ SSLOでは、SSL復号をバイパスするためのルールを柔軟に設定�
 
    .. image:: images/mod9-3.png
    | 
-#. **Name** に任意の名前を設定し、**Conditions** にて、**Category Lookup(All)** を選択し、バイパスさせたいカテゴリを選択し、**SSL Forward Proxy Action** にて、**Bypass** を選択し、SSL復号していないトラフィックもセキュリティデバイスに転送したい場合は、**Service Chain**も選択し、:guilabel:`OK` を押します。
+#. **Name** に任意の名前を設定し、**Conditions** にて、**Category Lookup(All)** を選択し、バイパスさせたいカテゴリを選択し、**SSL Forward Proxy Action** にて、**Bypass** を選択し、SSL復号していないトラフィックもセキュリティデバイスに転送したい場合は、**Service Chain** も選択し、:guilabel:`OK` を押します。
 
    .. image:: images/mod9-4.png
    | 

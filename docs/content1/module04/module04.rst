@@ -1,4 +1,23 @@
 最新版のSSL Orchestrator RPMへのアップグレード
 =========================================================
 
+SSLOでは、基本OSであるTMOSのバージョンの他に、SSLOのRPMのバージョンを考慮する必要があります。可能であれば、常に最新のバージョンにすることが好ましいです。以下の手順でアップグレードします。(**F5ハンズオンではバージョンの確認のみとなります。**)
+
+#. AskF5(https://support.f5.com/)より最新版のSSLO RPMをダウンロードします。
+
+    .. image:: images/mod4-1.png
+    |  
+#. **SSL Orchestrator >> Configuration** の画面にて、右上の :guilabel:`アップグレードボタン` を押します。
+
+    .. image:: images/mod4-2.png
+    |  
+#. :guilabel:`Choose File` にて、先程ダウンロードしたRPMを選択し、:guilabel:`Upload and Install` を押します。
+
+    .. image:: images/mod4-3.png
+    |  
+#. バージョンがアップグレードされていることを確認します。
+
+    .. image:: images/mod4-4.png
+    |  
+
 
