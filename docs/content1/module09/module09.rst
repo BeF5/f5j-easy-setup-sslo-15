@@ -28,7 +28,7 @@ SSLOでは、SSL復号をバイパスするためのルールを柔軟に設定�
    |  
 #. Successポップアップが表示されます。:guilabel:`OK` ボタンを押します。
 
-    .. image:: images/mod9-5.png
+    .. image:: images/mod9-6.png
     |  
 
 .. note::

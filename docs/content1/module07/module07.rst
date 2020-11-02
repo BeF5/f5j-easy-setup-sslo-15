@@ -9,7 +9,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-2.png
     |  
-#. **任意の名前** を設定し、右上の :guilabel:`Show Advanced Setting` をクリックします。
+#. **Create New** を設定し、右上の :guilabel:`Show Advanced Setting` をクリックします。
 
     .. image:: images/mod7-3.png
     |  
@@ -41,11 +41,11 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-10.png
     |  
-#. **Network Configuration** の **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。）
+#. **Network Configuration** の **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。）:guilabel:`Done` ボタンを押します。
 
     .. image:: images/mod7-11.png
     |  
-#. L2デバイスの受信ポートに応じて、ポートリマップを行います。（L2デバイスにより異なります。）　**Enable Port Remap** にチェックをいれ、**Remap Port** に必要なポート番号を設定します。（F5ハンズオンでは、**8080** と設定しておきます。）
+#. L2デバイスの受信ポートに応じて、ポートリマップを行います。（L2デバイスの仕様によっては不要です。）　**Enable Port Remap** にチェックをいれ、**Remap Port** に必要なポート番号を設定し、:guilabel:`Save` ボタンを押します。（F5ハンズオンでは、**8080** と設定しておきます。）
 
     .. image:: images/mod7-12.png
     |  
@@ -81,7 +81,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-20.png
     |  
-#. F5ハンズオンでは、**Manage SNAT Settings** で **Auto Map**、**Gateways** で **Default Route** を選択し、:guilabel:`Save＆Next` ボタンを押します。
+#. **Manage SNAT Settings** で **Auto Map**、**Gateways** で **Default Route** を選択し、:guilabel:`Save＆Next` ボタンを押します。(F5ハンズオンではこのように設定しますが、環境に合わせてください。)
 
     .. image:: images/mod7-21.png
     |  
@@ -91,7 +91,7 @@ SSLO Guided ConfigurationによるSSLOの設定
     |  
 #. 必要に応じて、設定内容を見直し、 :guilabel:`Save＆Next` ボタンを押します。
 
-    .. image:: images/mod7-2３.png
+    .. image:: images/mod7-23.png
     |  
 #. Successポップアップが表示されます。:guilabel:`OK` ボタンを押します。
 

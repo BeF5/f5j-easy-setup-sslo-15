@@ -15,7 +15,9 @@
 
    .. image:: images/mod8-3.png
    |  
-#. （オプション）F5ハンズオンではL2デバイスにSSH接続し、tcpdumpコマンドで通信の確認をします。（F５ハンズオンでは、ネットワークブリッジ名は **L2PEOLD** となります。）コマンド例：tcpdump -i L2PEOLD -A -s 0 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'
+#. （オプション）F5ハンズオンではL2デバイスにSSH接続し、tcpdumpコマンドで通信の確認をします。（F５ハンズオンでは、ネットワークブリッジ名は **L2PEOLD** となります。）
+
+   - コマンド例：tcpdump -i L2PEOLD -A -s 0 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'
 
    .. image:: images/mod8-4.png
    |  
