@@ -3,6 +3,10 @@ F5 SSL Orchestrator(SSLO)とは
 
 F5 SSL Orchestrator(SSLO)は、社内ネットワークからのアウトバウント通信を復号し、その通信を各セキュリティ製品にポリシーに従って転送し、最後にSSL再暗号化することができる製品です。アーキテクチャとしてはBIG-IP同様にフルプロキシアーキテクチャを採用し、クライアントサイド、サーバサイドでTCPコネクションをはり直しますので、柔軟にトラフィック制御が可能です。
 
+   .. figure:: images/mod1-1.png
+      :scale: 40%
+      :align: center
+
 特長としては以下のようなポイントがあります。
 
 - セキュリティ機器でのSSL処理負荷を代行することが可能
@@ -14,7 +18,4 @@ F5 SSL Orchestrator(SSLO)は、社内ネットワークからのアウトバウ�
 - 専用GUIによるポリシー設定が容易に可能
 - SSL可視化状況の見える化が可能
 
-   .. figure:: images/mod1-1.png
-      :scale: 40%
-      :align: center
 
