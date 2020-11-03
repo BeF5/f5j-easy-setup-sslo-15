@@ -9,11 +9,12 @@ F5 SSL Orchestrator(SSLO)は、社内ネットワークからのアウトバウ�
 - SSL可視化トラフィックを柔軟に制御可能
 - サービスチェーンによる柔軟なポリシー作成
 - 最新のSSLプロトコルに対応
+- L3 Explicit Proxy構成,L3 Transparent Proxy構成, L2構成, リバースプロキシ構成が可能
 - 様々な機器（L2、L3、ICAP、TAP、HTTP）との連携が可能
 - 専用GUIによるポリシー設定が容易に可能
 - SSL可視化状況の見える化が可能
 
    .. figure:: images/mod1-1.png
-      :scale: 50%
+      :scale: 40%
       :align: center
 
