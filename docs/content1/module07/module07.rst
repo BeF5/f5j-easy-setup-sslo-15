@@ -45,7 +45,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-11.png
     |  
-#. L2デバイスの受信ポートに応じて、ポートリマップを行います。（L2デバイスの仕様によっては不要です。）　**Enable Port Remap** にチェックをいれ、**Remap Port** に必要なポート番号を設定し、:guilabel:`Save` ボタンを押します。（F5ハンズオンでは、**8080** と設定しておきます。）
+#. L2デバイスがSSL復号したトラフィックをHTTPトラフィックのようにチェックしてもらうために、ポートリマップを行います。　**Enable Port Remap** にチェックをいれ、**Remap Port** に必要なポート番号を設定し、:guilabel:`Save` ボタンを押します。（L2デバイスによって、仕様はことなります。F5ハンズオンでは、**8080** と設定しておきます。）
 
     .. image:: images/mod7-12.png
     |  
