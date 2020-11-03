@@ -9,7 +9,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-2.png
     |  
-#. **Create New** を設定し、右上の :guilabel:`Show Advanced Setting` をクリックします。
+#. **Create New** を選択し、右上の :guilabel:`Show Advanced Setting` をクリックします。
 
     .. image:: images/mod7-3.png
     |  
@@ -29,7 +29,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-7.png
     |  
-#. :guilabel:`Add Service` を押します。
+#. サービス（ここではL2デバイス）を追加します。:guilabel:`Add Service` を押します。
 
     .. image:: images/mod7-8.png
     |  
@@ -41,7 +41,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-10.png
     |  
-#. **Network Configuration** の **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。） :guilabel:`Done` ボタンを押します。
+#. **Network Configuration** にて、:guilabel:`Add` ボタンを押します。 **From BIGIP VLAN** にて **Create New** を選択し、任意の名前を設定し、**Interface** を選択します。同様に、**To BIGIP VLAN** も設定します。（F5ハンズオンでは、名称は任意で構いませんが、Interfaceはそれぞれ、**1.3** と **1.4** を選択します。） :guilabel:`Done` ボタンを押します。
 
     .. image:: images/mod7-11.png
     |  
@@ -53,7 +53,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-13.png
     |  
-#. **Service Chain List** で :guilabel:`Add` を押します。
+#. サービスチェーンを作成します。サービスチェーンを複数作成することで、可視化デバイスが複数ある場合に、条件に応じた可視化デバイスへの転送が可能となります。（このF5ハンズオンでは可視化デバイスは1台ですが、サービスチェーンの作成は必要です。）**Service Chain List** で :guilabel:`Add` を押します。
 
     .. image:: images/mod7-14.png
     |  
@@ -77,7 +77,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-19.png
     |  
-#. **Proxy Server Settings** にクライアントからプロキシとしてアクセスさせるIPアドレスを入力し、**Ingress Network** として、クライアントからアクセス可能な **VLAN** を選択し、:guilabel:`Save＆Next` ボタンを押します。
+#. **Proxy Server Settings** にクライアントからプロキシとしてアクセスさせるIPアドレス（F5ハンズオンでは、10.1.10.150）を入力し、**Ingress Network** として、クライアントからアクセス可能な **VLAN** （F5ハンズオンでは、ClientVLAN）を選択し、:guilabel:`Save＆Next` ボタンを押します。
 
     .. image:: images/mod7-20.png
     |  
@@ -101,7 +101,7 @@ SSLO Guided ConfigurationによるSSLOの設定
 
     .. image:: images/mod7-25.png
     |  
-#. SSLOがExplicit Proxyとして利用する **DNS** を設定し、:guilabel:`Deploy` を押します。
+#. SSLOがExplicit Proxyとして利用する **DNS** を設定し（F5ハンズオンでは、10.1.1.2）、:guilabel:`Deploy` を押します。
 
     .. image:: images/mod7-26.png
     |  

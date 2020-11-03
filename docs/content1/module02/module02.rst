@@ -10,7 +10,8 @@
          :header: "製品名", "バージョン"
          :widths: 30, 40
 
-         "F5 SSL Orchestrator", "v15.1.1.2-0.0.9 ‒ 7.5.2"
+         "TMOS", "v15.1.1-0.0.6"
+         "F5 SSL Orchestrator(RPM)", "v15.1.0-7.5.2"
    |  
 
 #. 本ガイドにおける構成イメージ
