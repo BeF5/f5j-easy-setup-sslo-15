@@ -4,7 +4,7 @@ SSL復号バイパスルールの設定（URL Filteringカテゴリ）
 SSLOでは、SSL復号をバイパスするためのルールを柔軟に設定可能です。ここでは、特定カテゴリのサイト（例：金融、ヘルスケア）へのアクセスは、SSL復号をバイパスする設定を行います。
 
 .. note::
-    管理者が設定した接続先でルールを設定することもできますが、一般的なカテゴリルールを利用したい場合、別途URL Filteringのサブスクリプションライセンスが必要となります。また、URL Filtering またはSWGのプロビジョニング、URL Filtering DBのダウンロードが必要です。（F5ハンズオンでは予め、URL Filtering DBを設定、ダウンロードしてあります。）
+    管理者が設定した接続先でルールを設定することもできますが、一般的なカテゴリルールを利用したい場合、別途URL Filteringのサブスクリプションライセンスが必要となります。また、URL Filteringのプロビジョニング、URL Filtering DBのダウンロードが必要です。（F5ハンズオンでは予め、URL Filtering DBを設定、ダウンロードしてあります。）
 
 #. **SSL Orchestrator >> Configuration** にて、**Security Policies** を選択します。
 

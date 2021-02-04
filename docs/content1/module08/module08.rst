@@ -13,7 +13,7 @@
 
    .. image:: images/mod8-2.png
    |  
-#. curlコマンドで確認する場合は、**curl -vk --proxy 10.1.10.150:3128 https://httpbin.org/get**　と入力し、確認します。
+#. curlコマンドで確認する場合は、curl -vk --proxy 10.1.10.150:3128 https://httpbin.org/get と入力し、確認します。
 
    .. image:: images/mod8-3.png
    |  
