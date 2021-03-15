@@ -10,7 +10,7 @@
          :header: "製品名", "バージョン"
          :widths: 30, 40
 
-         "TMOS", ":strike:`v15.1.1-0.0.6` "
+         "TMOS", " :strike:`v15.1.1-0.0.6` "
          "F5 SSL Orchestrator(RPM)", "v15.1.0-7.5.2"
    .. note::
        - TMOS v15.1.2.1以上のバージョンをご利用下さい。
